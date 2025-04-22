@@ -18,6 +18,7 @@ function sqrtFinder(numVal){
 
 //find the maximum and minimum value using Math.max() & Math.min()
 function findMaxMin(numbers){
+    //(... numbers) -> spread the array elements into individual values.
     return `The maximum values is ${Math.max(...numbers)} and minimum value is ${Math.min(...numbers)}`;
 }
 
@@ -28,7 +29,7 @@ function randomNum(r1, r2){
 }
 
 //Round the number to 2 decimal places using Math.round().
-function roundToThree(floatVal){
+function roundToTwo(floatVal){
     // multiply the number with 100 and divide the result by 100, to round off to 2 deciaml places. 
    return  (Math.round(floatVal * 100)) / 100;
 }
